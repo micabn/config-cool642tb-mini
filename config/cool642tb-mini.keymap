@@ -56,7 +56,7 @@
         FUNCTION {
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                               &mt K_CALC ENTER  &kp N7        &kp N8        &kp N9        &kp MINUS
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none       &kp KP_NUMLOCK  &kp DOT           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none       &kp KP_NUMLOCK  &kp DOT           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON
 &kp F11  &kp F12  &none   &none   &none    &trans      &trans          &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &trans   &trans   &trans  &trans  &trans   &trans      &trans          &trans                                                      &kp DQT
             >;
@@ -66,7 +66,7 @@
             bindings = <
 &kp LS(EXCL)   &kp LEFT_BRACKET     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                  &kp EQUAL             &kp CARET   &kp LS(BACKSLASH)  &kp PLUS     &kp MINUS
 &kp AMPERSAND  &kp LS(RIGHT_BRACE)  &kp RBKT       &kp LS(N8)    &kp LS(COMMA)  &kp LS(COMMA)      &kp LS(DOT)  &kp LS(GREATER_THAN)  &kp LS(N9)  &kp BSLH           &kp PIPE     &kp AT
-&kp EQUAL      &kp PLUS             &kp UNDER      &kp SLASH     &kp QMARK      &kp SEMI           &kp COLON    &kp SQT               &kp DQT     &trans             &kp INT_YEN  &kp NUHS
+&kp N1         &kp N2               &kp N3         &kp N4        &kp N5         &kp N6             &kp N7       &kp N8                &kp N9      &kp N0             &kp INT_YEN  &kp NUHS
 &bt BT_CLR     &bt BT_SEL 0         &bt BT_SEL 1   &bt BT_SEL 2  &trans         &trans             &trans       &trans                                                            &trans
             >;
         };
