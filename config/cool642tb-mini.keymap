@@ -55,10 +55,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1    &kp UP_ARROW  &kp F2     &kp F3   &kp F4                                &mt K_CALC ENTER  &kp N7        &kp N8        &kp N9        &kp COLON
-&kp LEFT  &kp DOWN      &kp RIGHT  &kp F5   &kp F6   &none        &kp KP_NUMLOCK  &kp DOT           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&kp F7    &kp F8        &kp F9     &kp F10  &kp F11  &kp F12      &trans          &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&trans    &trans        &trans     &trans   &trans   &trans       &trans          &trans                                                      &kp DQT
+&kp F1    &kp UP_ARROW  &kp F2     &kp F3   &kp F4                                &mt K_CALC ENTER  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON
+&kp LEFT  &kp DOWN      &kp RIGHT  &kp F5   &kp F6   &none        &kp KP_NUMLOCK  &kp DOT           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+&kp F7    &kp F8        &kp F9     &kp F10  &kp F11  &kp F12      &trans          &kp KP_NUMBER_0   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH
+&trans    &trans        &trans     &trans   &trans   &trans       &trans          &trans                                                               &kp DQT
             >;
         };
 
@@ -66,7 +66,7 @@
             bindings = <
 &kp LS(EXCL)   &kp LEFT_BRACKET     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                  &kp EQUAL             &kp CARET   &kp LS(INTERNATIONAL_1)  &kp PLUS     &kp MINUS
 &kp AMPERSAND  &kp LS(RIGHT_BRACE)  &kp RBKT       &kp LS(N8)    &kp LS(COMMA)  &kp LS(COMMA)      &kp LS(DOT)  &kp LS(GREATER_THAN)  &kp LS(N9)  &kp BSLH                 &kp PIPE     &kp AT
-&kp KP_N0      &kp KP_NUMBER_1      &trans         &trans        &trans         &trans             &trans       &trans                &trans      &trans                   &kp INT_YEN  &kp SLASH
+&trans         &trans               &trans         &trans        &trans         &trans             &trans       &trans                &trans      &trans                   &kp INT_YEN  &kp SLASH
 &bt BT_CLR     &bt BT_SEL 0         &bt BT_SEL 1   &bt BT_SEL 2  &trans         &trans             &trans       &trans                                                                  &trans
             >;
         };
