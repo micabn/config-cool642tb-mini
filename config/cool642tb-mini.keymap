@@ -28,6 +28,12 @@
             bindings = <&kp LANG1>;
             key-positions = <18 19>;
         };
+
+        play_pause {
+            bindings = <&kp C_PLAY_PAUSE>;
+            key-positions = <25 24>;
+            layers = <0>;
+        };
     };
 
     behaviors {
