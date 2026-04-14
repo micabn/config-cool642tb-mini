@@ -128,7 +128,7 @@
             bindings = <
 &mt EXCL QUESTION  &kp AT          &kp HASH          &kp DOLLAR            &kp PERCENT                        &kp CARET         &kp AMPERSAND          &kp UNDER          &kp TILDE        &kp MINUS
 &kp APOS           &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &trans      &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES
-&kp BSLH           &trans          &trans            &trans                &kp COLON      &trans      &trans  &kp SEMI          &trans                 &trans             &kp SLASH        &kp SLASH
+&kp BSLH           &trans          &trans            &trans                &kp RS(COLON)  &trans      &trans  &kp SEMI          &trans                 &trans             &kp SLASH        &kp SLASH
 &trans             &trans          &trans            &trans                &trans         &trans      &trans  &trans                                                                       &trans
             >;
         };
