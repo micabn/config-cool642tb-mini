@@ -77,10 +77,10 @@
 
         NUM {
             bindings = <
-&mt QUESTION EXCL  &kp LEFT_BRACKET     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                  &kp EQUAL             &kp CARET   &kp LS(INTERNATIONAL_1)  &kp PLUS   &kp MINUS
-&kp AMPERSAND      &kp LS(RIGHT_BRACE)  &kp RBKT       &kp LS(N8)    &kp LS(COMMA)  &kp LS(COMMA)      &kp LS(DOT)  &kp LS(GREATER_THAN)  &kp LS(N9)  &kp BSLH                 &kp PIPE   &kp AT
-&kp INT_YEN        &trans               &trans         &trans        &kp COLON      &trans             &trans       &kp SEMI              &trans      &trans                   &kp SLASH  &kp SLASH
-&bt BT_CLR         &bt BT_SEL 0         &bt BT_SEL 1   &trans        &trans         &trans             &trans       &trans                                                                &trans
+&mt QUESTION EXCL  &kp LEFT_BRACKET     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                  &kp EQUAL             &kp CARET   &kp LS(INTERNATIONAL_1)  &kp PLUS  &kp MINUS
+&kp AMPERSAND      &kp LS(RIGHT_BRACE)  &kp RBKT       &kp LS(N8)    &kp LS(COMMA)  &kp LS(COMMA)      &kp LS(DOT)  &kp LS(GREATER_THAN)  &kp LS(N9)  &kp BSLH                 &kp PIPE  &kp AT
+&kp INT_YEN        &trans               &trans         &trans        &kp COLON      &trans             &trans       &kp SEMI              &trans      &trans                   &kp DOT   &kp SLASH
+&bt BT_CLR         &bt BT_SEL 0         &bt BT_SEL 1   &trans        &trans         &trans             &trans       &trans                                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
