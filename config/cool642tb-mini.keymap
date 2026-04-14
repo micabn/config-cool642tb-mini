@@ -83,7 +83,7 @@
 &bt BT_CLR         &bt BT_SEL 0         &bt BT_SEL 1   &trans        &trans         &trans             &trans       &trans                                                                  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_REWIND C_FAST_FORWARD>;
         };
 
         ARROW {
