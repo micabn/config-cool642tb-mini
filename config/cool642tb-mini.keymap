@@ -63,7 +63,7 @@
 &kp TAB             &mt LCTRL C_MUTE  &lt 1 LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &mt LSHIFT DELETE            &mt LEFT_SHIFT BACKSPACE  &lt 1 SPACE                                 &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         FUNCTION {
@@ -83,7 +83,7 @@
 &bt BT_CLR         &bt BT_SEL 0         &bt BT_SEL 1   &trans        &trans         &trans             &trans       &trans                                                                  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_REWIND C_FAST_FORWARD>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         ARROW {
