@@ -39,6 +39,21 @@
             bindings = <&kp MINUS>;
             key-positions = <20 21>;
         };
+
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <11 12>;
+        };
+
+        Cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <1 2>;
+        };
+
+        Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <23 24>;
+        };
     };
 
     behaviors {
