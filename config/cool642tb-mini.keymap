@@ -54,6 +54,21 @@
             bindings = <&kp LC(V)>;
             key-positions = <23 24>;
         };
+
+        MLclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <30 31>;
+        };
+
+        MRclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <31 32>;
+        };
+
+        MCclick {
+            bindings = <&mkp MCLK>;
+            key-positions = <33 32>;
+        };
     };
 
     behaviors {
