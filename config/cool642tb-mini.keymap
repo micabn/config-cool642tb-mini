@@ -67,7 +67,7 @@
 
         MCclick {
             bindings = <&mkp MCLK>;
-            key-positions = <20 21>;
+            key-positions = <30 31 32>;
         };
     };
 
