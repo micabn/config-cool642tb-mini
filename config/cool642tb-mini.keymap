@@ -69,6 +69,11 @@
             bindings = <&mkp MCLK>;
             key-positions = <30 31 32>;
         };
+
+        app-swich {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <10 37>;
+        };
     };
 
     behaviors {
