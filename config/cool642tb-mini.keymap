@@ -74,6 +74,11 @@
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <26 25>;
         };
+
+        typeless-input {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <25 24>;
+        };
     };
 
     behaviors {
