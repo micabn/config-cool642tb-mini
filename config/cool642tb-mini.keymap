@@ -97,9 +97,9 @@
 
         default_layer {
             bindings = <
-&mt LG(Y) Q  &kp W             &kp E         &kp R      &kp T                                                      &kp Y      &kp U  &kp I    &kp O          &kp P
-&kp A        &kp S             &kp D         &kp F      &kp G             &kp LC(Y)          &mt PRINTSCREEN HOME  &kp H      &kp J  &lt 5 K  &kp L          &kp BACKSPACE
-&kp Z        &kp X             &kp C         &kp V      &kp LEFT_ALT      &kp LA(SPACE)      &mt ESC END           &kp B      &kp N  &kp M    &mt DOT COMMA  &kp LEFT_ARROW
+&mt LG(Q) Q  &kp W             &kp E         &kp R      &kp T                                                      &kp Y      &kp U  &kp I    &kp O          &kp P
+&mt LG(A) A  &kp S             &kp D         &kp F      &kp G             &kp LC(Y)          &mt PRINTSCREEN HOME  &kp H      &kp J  &lt 5 K  &kp L          &kp BACKSPACE
+&mt LG(Z) Z  &kp X             &kp C         &kp V      &kp LEFT_ALT      &kp LA(SPACE)      &mt ESC END           &kp B      &kp N  &kp M    &mt DOT COMMA  &kp LEFT_ARROW
 &kp TAB      &mt LCTRL C_MUTE  &kp LEFT_WIN  &kp LCTRL  &mt LSHFT DELETE  &lt 2 SPACE        &lt 1 SPACE           &kp ENTER                                 &kp RIGHT_ARROW
             >;
 
